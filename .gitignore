@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 环境和本地配置
+.env
+.env.*
+.venv/
+venv/
+.idea/
+.vscode/
+
+# 数据、权重和结果
+datasets/
+weights/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+output*/
+results/
+comparison_2x2/
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
